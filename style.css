@@ -727,31 +727,52 @@ body.contact-on .contact-section {
 
   /*Each slid has the same width as that of the slider hence covering the whole span*/
   
-  .slide1 {
-	background-image: url("https://media.discordapp.net/attachments/483325612899958796/984527683356598342/Picsart_22-06-09_20-36-10-707.png?width=750&height=400")	;
-  }
+.slide1 {
+	background-image: url("/images/20231021_143158.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
   
   .slide2 {
-	background-image: url("https://media.discordapp.net/attachments/483325612899958796/985626576521662485/20220513_104200.jpg?width=720&height=400");
+	background-image: url("/images/20230816_190837.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
   }
   
   .slide3 {
-	background-image: url("https://media.discordapp.net/attachments/483325612899958796/985624712002535434/unknown.png?width=720&height=400");
+	background-image: url("/images/IMG_20221020_202620_440.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
   }
   
   .slide4 {
-	background-image: url("https://media.discordapp.net/attachments/483325612899958796/985625575601360896/20210817_163030.jpg?width=720&height=400");
+	background-image: url("/images/vacation.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
   }
-  
+
   .slide5 {
-	background-image: url("https://media.discordapp.net/attachments/483325612899958796/984527683960582154/Picsart_22-06-09_20-38-40-928.png?width=720&height=400");
+	background-image: url("/images/vacation.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
   }
-.slide6 {
-	background-image: url("https://media.discordapp.net/attachments/483325612899958796/980500078131294248/DSC_0055.JPG?width=720&height=400");
-}
-.slide7 {
-	background-image: url("https://media.discordapp.net/attachments/483325612899958796/985471482174005258/20220525_234512.jpg?width=720&height=400");
-}
+  .slide6 {
+	background-image: url("/images/vacation.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  .slide7 {
+	background-image: url("/images/vacation.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
 
 .travel-section,
 .wildlife-section,
@@ -877,7 +898,7 @@ position: fixed;
   background-position: center center;
   background-size: 65%;
   background-repeat: no-repeat;
-  background-image: url('');
+  background-image: url('/images/codeaura.png');
   box-shadow: 0 0 0 2px rgba(255,255,255,.1);
   transition: opacity .2s, border-radius .2s, box-shadow .2s;
   transition-timing-function: ease-out;

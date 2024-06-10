@@ -58,7 +58,7 @@ function DelBlur() {
 		loop:true,
 	});
 	
-
+ // Age validation
 	
 
 	//About page
@@ -177,4 +177,12 @@ let toggle = document.querySelector('.toggle');
   let menu = document.querySelector('.menu');
   toggle.onclick= () => menu.classList.toggle('active')
 
+
+  var dob = new Date("03/14/2004");
+  var month_diff = Date.now() - dob.getTime();
+  var age_dt = new Date(month_diff);
+  var year = age_dt.getUTCFullYear();
+  var age = Math.abs(year - 2004);
+
+  document.getElementById("demo").innerHTML = age;
 
