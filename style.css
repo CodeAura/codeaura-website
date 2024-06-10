@@ -174,7 +174,7 @@ a:hover {
 	display: block;
 	overflow: hidden;
 	height: 100vh;
-	background-image: url('https://media.discordapp.net/attachments/483325612899958796/983077767241416734/DSC_0063.JPG?width=1000&height=662');
+	background-image: url('/images/background.png');
 	background-size: cover;
 	background-position: center;
 	transform: scale(1) rotateX(0);
@@ -877,7 +877,7 @@ position: fixed;
   background-position: center center;
   background-size: 65%;
   background-repeat: no-repeat;
-  background-image: url('https://media.discordapp.net/attachments/483325612899958796/923127223492411442/PicsArt_09-09-01.35.45.png');
+  background-image: url('');
   box-shadow: 0 0 0 2px rgba(255,255,255,.1);
   transition: opacity .2s, border-radius .2s, box-shadow .2s;
   transition-timing-function: ease-out;
